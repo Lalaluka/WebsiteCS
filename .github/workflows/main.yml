@@ -18,9 +18,19 @@ jobs:
         yarn
         yarn run build
     
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
-        server: ftp.strato.de
-        username: ${{ secrets.username }}
-        password: ${{ secrets.password }}
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      env:
+        FTP_SERVER: ${{ secrets.server }}
+        FTP_USERNAME: ${{ secrets.username }}
+        FTP_PASSWORD: ${{ secrets.password }}
+        LOCAL_DIR: build
+        METHOD: sftp
+        PORT: 22
+
+#    - name: 📂 Sync files
+#      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+#      with:
+#        server: ${{ secrets.server}}
+#        username: ${{ secrets.username }}
+#        password: ${{ secrets.password }}
