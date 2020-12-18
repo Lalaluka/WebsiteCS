@@ -32,7 +32,7 @@
 .telekom-it {
   padding: 25px;
   font-family: 'TeleGroteskNext', Calibri, 'PT Sans Narrow', sans-serif;
-  font-size: 40px;
+  font-size: calc(1.5em + 0.5vw);
   text-decoration: none;
 }
 .telekom-it a {
@@ -46,7 +46,7 @@
 }
 .div-withoutbreak {
   display: inline;
-  font-size: 60px;
+  font-size: calc(2.5em + 0.5vw);
 }
 .relative {
   display: flex;
@@ -56,10 +56,11 @@
   position: relative;
   float: left;
   width: 100%;
+  font-size: calc(1em + 0.2vw);
 }
 .header img {
   padding-top: 20px;
-  height: 300px;
+  width: 30%;
   border-radius: 70%;
   float: left;
 }
