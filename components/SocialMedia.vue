@@ -29,7 +29,7 @@
         />
       </a>
       <a href="https://github.com/Lalaluka" target="_blank">
-        <img src="/socialicons/github_hex_icon.png" alt="" class="socialicon">
+        <img src="/socialicons/github_hex_icon.png" alt="" class="socialicon" />
       </a>
     </p>
   </div>
