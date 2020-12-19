@@ -6,7 +6,7 @@
         alt="Picture of Calvin Schröder"
       />
       <div class="relative">
-        <h1 class="main-1 title">Calvin Schröder</h1>
+        <h1 id="main-1" class="title">Calvin Schröder</h1>
       </div>
     </div>
     <div class="appearing-text">
@@ -18,6 +18,7 @@
       </div>
       <div class="main-4 telekom-it">
         Currently
+        <br class="mobile-break" />
         <b-link
           class="text-decoration-none"
           href="https://www.telekom.com/de/karriere/fokusthemen/telekom-it"
@@ -36,6 +37,7 @@
   text-decoration: none;
 }
 .telekom-it a {
+  white-space: nowrap;
   color: #e20074;
   background-color: #ffffff;
   border-radius: 15px;
@@ -65,7 +67,8 @@
   float: left;
 }
 
-.main-1 {
+#main-1 {
+  font-size: calc(2em + 4vw) !important;
   --time: 2s;
   width: 100%;
   position: absolute;
