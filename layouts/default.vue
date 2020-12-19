@@ -64,8 +64,8 @@ body {
     background-position: 0% 50%;
   }
 }
-
 html {
+  max-width: 100vw;
   overflow-x: hidden;
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
