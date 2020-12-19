@@ -13,7 +13,6 @@
   margin: 0 auto;
 }
 .text-3d {
-  padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
   color: #fff;
