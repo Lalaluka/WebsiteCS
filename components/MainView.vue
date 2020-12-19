@@ -6,12 +6,16 @@
         alt="Picture of Calvin Schröder"
       />
       <div class="relative">
-        <h1 id="main-1" class="title">Calvin Schröder</h1>
+        <h1 id="main-1" class="title">
+          Calvin<br class="mobile-break" />
+          Schröder
+        </h1>
       </div>
     </div>
     <div class="appearing-text">
       <div class="main-2 div-withoutbreak">
-        is <strong>architecting</strong> and <strong>developing</strong>
+        is <strong class="text-3d">architecting</strong> and
+        <strong class="text-3d">developing</strong>
       </div>
       <div class="main-3 div-withoutbreak">
         fullstack Web-Applications, in Agile environments!
@@ -68,7 +72,8 @@
 }
 
 #main-1 {
-  font-size: calc(2em + 4vw) !important;
+  margin-bottom: 0;
+  font-size: calc(2em + 3.5vw) !important;
   --time: 2s;
   width: 100%;
   position: absolute;
